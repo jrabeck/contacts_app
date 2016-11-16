@@ -1,0 +1,17 @@
+<div class="row">
+
+<% @contacts.each do |contact|%>
+<div>
+  <div class="col-md-4">
+    <div class="container">
+      <%= contact.first_name %>
+      <%= contact.last_name %>
+      <%= contact.phone_number %>
+      <%= contact.email %>
+    </div>
+  </div>
+</div>
+<% end %>
+
+</div>
+
